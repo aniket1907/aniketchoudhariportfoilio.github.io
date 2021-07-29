@@ -12,6 +12,9 @@ html {
 a {
 	text-decoration: none;
 }
+.link{
+	color: white;
+}
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -367,6 +370,11 @@ p {
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
+	
+}
+#projects .project-info a{
+		color: white;
+	
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -435,9 +443,9 @@ p {
 	font-size: 2rem;
 }
 #about .col-left .about-img {
-	height: 160%;
+	height: 150%;
 	width: 100%;
-	/* position: relative; */
+	position: relative;
 	border: 10px solid white;
 }
 #about .col-left .about-img::after {
@@ -462,6 +470,9 @@ p {
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
+}
+#contact .contact-items a{
+	color: black;
 }
 #contact .contact-item {
 	width: 80%;
